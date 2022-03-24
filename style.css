@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'Cocogoose';
-    src: url('fonts/cocogoose/Cocogoose-Semilight.ttf') format('truetype');
+    src: url('fonts/cocogoose/Cocogoose.ttf') format('truetype');
+}    
+
+@font-face {    
+    font-family: 'LemonMilk';
+    src: url('fonts/lemonmilk/LEMONMILK-Light.otf') format('opentype'); 
 }
 
 .title{
@@ -21,10 +26,16 @@
 }
 
 ul{
-    padding-left: 0px;
+    padding-left: 20px;
     list-style: square;
     list-style-position: outside;
+    font-family: 'LemonMilk';
 }
+
+li{
+    padding-left: 50px;
+}
+
 
 a{
     color: white;
@@ -32,7 +43,7 @@ a{
 }
 
 a:hover{
-    color:wheat;
+    color:rgb(255, 255, 169);
     text-decoration: none;
 }
 
