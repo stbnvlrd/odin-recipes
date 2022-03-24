@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('fonts/cocogoose/Cocogoose.ttf') format('truetype');
+}    
+
+@font-face {    
+    font-family: 'LemonMilk';
+    src: url('fonts/lemonmilk/LEMONMILK-Light.otf') format('opentype'); 
+}
+
+body{
+    background-color:black;
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+    font-family: 'Cocogoose';
+    
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.text{
+    color: white;
+    font-size: 14px;
+    
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.title_image{
+    display: block;
+    margin-left: -10px;
+    width: 50%;
+    width: 1692px;
+    height: 400px;
+    object-fit: cover;
+    z-index: -1;
+    position:relative;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 220%;
+    margin-left: 120px;
+    font-family: 'Cocogoose';
+}
+
+a:hover{
+    color:rgb(255, 255, 169);
+    text-decoration: none;
+}
+h3{
+    font-family: 'Cocogoose';
+    font-size: 20px;
+}
+
+h5{
+    font-family: 'Cocogoose';
+    font-size: 14px;
+}
