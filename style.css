@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Cocogoose';
+    src: url('fonts/cocogoose/Cocogoose-Semilight.ttf') format('truetype');
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+    font-family: 'Cocogoose';
+    
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.recipe_list{
+    color: white;
+    font-size: 20px;
+    line-height: 220%;
+    margin-left: 120px;
+    
+}
+
+ul{
+    padding-left: 0px;
+    list-style: square;
+    list-style-position: outside;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:wheat;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
